@@ -46,6 +46,8 @@ h4 {
 p {
   color: grey;
   font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 p .blocktext{
   text-align: center;
@@ -55,29 +57,30 @@ p .blocktext{
   margin-left: auto;
 }
 .drummers {
-  float: left
+  float: left;
 }
 .Wanko {
   display: block;
   margin-right: auto;
   margin-top: 200px;
+  margin-bottom: 180px;
 }
 .restaurant {
   float: right;
 }
-.styleline {
+.hr {
   display: block;
   width: 100%;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .footer{
   display: inline-block;
-  margin-top: 200px;
+  margin-top: 110px;
   margin-left: 600px;
   margin-bottom: 50px;
 }
 .button {
+  display: block;
   border: 2px solid red;
   padding: 20px;
   margin:center;
