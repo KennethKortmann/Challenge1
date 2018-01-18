@@ -52,6 +52,9 @@ p {
 p .blocktext{
   text-align: center;
 }
+.red {
+  color: red;
+}
 .Sansa {
   display: block;
   margin-left: auto;
@@ -75,9 +78,10 @@ p .blocktext{
 }
 .footer{
   display: inline-block;
-  margin-top: 110px;
+  margin-top: auto;
   margin-left: 600px;
   margin-bottom: 50px;
+  align-items: center;
 }
 .button {
   display: block;
