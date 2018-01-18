@@ -43,24 +43,33 @@ h4 {
   font-weight: normal;
   margin-top: 0;
 }
+p {
+  color: grey;
+  font-weight: lighter;
+}
 p .blocktext{
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
 }
 .Sansa {
   display: block;
   margin-left: auto;
 }
 .drummers {
-  float: left;
+  float: left
 }
 .Wanko {
   display: block;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .restaurant {
   float: right;
+}
+.styleline {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 .footer{
   display: inline-block;
