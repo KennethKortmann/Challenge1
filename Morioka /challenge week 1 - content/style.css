@@ -55,21 +55,19 @@ p .blocktext{
 .red {
   color: red;
 }
-.Sansa {
-  display: block;
-  margin-left: auto;
+
+.image-left img {
+    float: left;
+    margin-right: 10px;
 }
-.drummers {
-  float: left;
+
+.image-right img {
+    float: right;
+    margin-left: 10px;
 }
-.Wanko {
-  display: block;
-  margin-right: auto;
-  margin-top: 200px;
-  margin-bottom: 180px;
-}
-.restaurant {
-  float: right;
+.article {
+    height: 246px;
+    margin-bottom: 20px;
 }
 .hr {
   display: block;
@@ -96,4 +94,8 @@ p .blocktext{
   text-decoration: none;
   font-weight:bold;
   align-items: center;
+}
+
+#content {
+    padding: 0 5%;
 }
